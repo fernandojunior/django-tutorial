@@ -1,4 +1,21 @@
-# Get Started!
+# Django tutorial
+
+## Checklist
+
+* [ ] Django at a glance
+* [ ] Quick install guide
+* [ ] Writing your first Django app, part 1
+* [ ] Writing your first Django app, part 2
+* [ ] Writing your first Django app, part 3
+* [ ] Writing your first Django app, part 4
+* [ ] Writing your first Django app, part 5
+* [ ] Writing your first Django app, part 6
+* [ ] Writing your first Django app, part 7
+* [ ] Advanced tutorial: How to write reusable apps
+* [ ] What to read next
+* [ ] Writing your first patch for Django
+
+## Get Started!
 
 Here's how to set up `django-tutorial` for local development.
 
