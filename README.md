@@ -1,15 +1,20 @@
 # Django tutorial
 
 * [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/)
+
 * [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/)
+
 * [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
+
     ```sh
     $ django-admin startproject mysite
     $ mv mysite/* . && rm -r mysite
     $ python manage.py startapp polls
     # http://127.0.0.1:8000/polls/
     ```
+
 * [x] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/)
+
     ```sh
     $ sudo apt-get update
     $ sudo apt-get install sqlite3 libsqlite3-dev
@@ -24,13 +29,21 @@
     $ python manage.py runserver
     # http://127.0.0.1:8000/admin/
     ```
+
 * [ ] Writing your first Django app, part 3
+
 * [ ] Writing your first Django app, part 4
+
 * [ ] Writing your first Django app, part 5
+
 * [ ] Writing your first Django app, part 6
+
 * [ ] Writing your first Django app, part 7
+
 * [ ] Advanced tutorial: How to write reusable apps
+
 * [ ] What to read next
+
 * [ ] Writing your first patch for Django
 
 ## Get Started!
