@@ -30,7 +30,7 @@
     # http://127.0.0.1:8000/admin/
     ```
 
-* [ ] Writing your first Django app, part 3
+* [x] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/)
 
 * [ ] Writing your first Django app, part 4
 
