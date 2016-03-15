@@ -78,3 +78,7 @@ Here's how to set up `django-tutorial` for local development.
   ```
 
 8. Submit a pull request through the GitHub website.
+
+## Credits
+
+This project was created based on [fernandojunior/python-template-simple](https://github.com/fernandojunior/python-template-simple) project template.
