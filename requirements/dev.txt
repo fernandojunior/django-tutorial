@@ -1,0 +1,16 @@
+# Everything the developer needs
+
+# Code style
+flake8==2.5.1
+
+# Test
+pytest==2.8.5
+
+# Code coverage
+coverage==4.0.3
+
+# Standardize testing in different Python versions
+tox==2.3.1
+
+# Prod requirements
+-r prod.txt
