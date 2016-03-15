@@ -4,6 +4,7 @@
 
 * [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/)
 * [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/)
+* [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
 
     ```sh
     $ django-admin startproject mysite
@@ -12,7 +13,6 @@
     # http://127.0.0.1:8000/polls/
     ```
 
-* [ ] Writing your first Django app, part 1
 * [ ] Writing your first Django app, part 2
 * [ ] Writing your first Django app, part 3
 * [ ] Writing your first Django app, part 4
