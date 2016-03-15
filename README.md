@@ -2,8 +2,8 @@
 
 ## Checklist
 
-* [x] Django at a glance
-* [ ] Quick install guide
+* [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/)
+* [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/)
 * [ ] Writing your first Django app, part 1
 * [ ] Writing your first Django app, part 2
 * [ ] Writing your first Django app, part 3
