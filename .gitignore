@@ -58,9 +58,10 @@ docs/_build/
 target/
 
 # Flask-Migrate
-migrations/
+# migrations/
 
 # sqlite
 *.db
+db.*
 
 TODO.rst
