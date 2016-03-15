@@ -1,19 +1,29 @@
 # Django tutorial
 
-## Checklist
-
 * [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/)
 * [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/)
 * [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
-
     ```sh
     $ django-admin startproject mysite
     $ mv mysite/* . && rm -r mysite
     $ python manage.py startapp polls
     # http://127.0.0.1:8000/polls/
     ```
-
-* [ ] Writing your first Django app, part 2
+* [x] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/)
+    ```sh
+    $ sudo apt-get update
+    $ sudo apt-get install sqlite3 libsqlite3-dev
+    $ python manage.py migrate
+    $ python manage.py makemigrations polls
+    $ python manage.py showmigrations
+    $ python manage.py sqlmigrate polls 0001
+    $ python manage.py check
+    $ python manage.py migrate
+    $ python manage.py shell
+    $ python manage.py createsuperuser
+    $ python manage.py runserver
+    # http://127.0.0.1:8000/admin/
+    ```
 * [ ] Writing your first Django app, part 3
 * [ ] Writing your first Django app, part 4
 * [ ] Writing your first Django app, part 5
