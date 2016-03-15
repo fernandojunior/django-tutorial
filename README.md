@@ -2,7 +2,7 @@
 
 ## Checklist
 
-* [ ] Django at a glance
+* [x] Django at a glance
 * [ ] Quick install guide
 * [ ] Writing your first Django app, part 1
 * [ ] Writing your first Django app, part 2
