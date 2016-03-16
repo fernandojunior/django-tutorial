@@ -32,7 +32,7 @@
 
 * [x] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/)
 
-* [ ] Writing your first Django app, part 4
+* [x] [Writing your first Django app, part 4](https://docs.djangoproject.com/en/1.9/intro/tutorial04/)
 
 * [ ] Writing your first Django app, part 5
 
