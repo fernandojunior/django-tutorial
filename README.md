@@ -51,7 +51,7 @@
 
 * [x] [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.9/intro/tutorial06/)
 
-* [ ] Writing your first Django app, part 7
+* [x] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/)
 
 * [ ] Advanced tutorial: How to write reusable apps
 
