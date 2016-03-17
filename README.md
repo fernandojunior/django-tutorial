@@ -78,9 +78,9 @@ the branch of the item to GitHub:
 
 ## Checklist
 
-* [ ] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/) [overview]
+* [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/) [overview]
 
-* [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/) [install]
+* [ ] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/) [install]
 
     Observation: Django has been installed using `pip install requirements.txt`.
 
