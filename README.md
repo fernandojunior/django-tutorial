@@ -82,7 +82,7 @@ the branch of the item to GitHub:
 
 * [ ] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/) [install]
 
-    Observation: Django has been installed using `pip install requirements.txt`.
+    Observation: Django has been installed using `pip install -r requirements.txt`.
 
 * [ ] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/) [tutorial01]
 
