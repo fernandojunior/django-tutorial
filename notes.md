@@ -2,16 +2,17 @@
 
 ## testing
 https://docs.djangoproject.com/en/1.9/topics/testing/
+
 http://engineroom.trackmaven.com/blog/using-pytest-with-django/
+
 https://docs.djangoproject.com/en/1.9/topics/testing/advanced/#topics-testing-code-coverage
 
 ## docs
 http://www.mkdocs.org/user-guide/writing-your-docs/
 
-# tutorial01
+## tutorial01
 ```sh
 $ django-admin startproject mysite
-$ mv mysite/* . && rm -r mysite
 $ python manage.py startapp polls
 # http://127.0.0.1:8000/polls/
 ```
