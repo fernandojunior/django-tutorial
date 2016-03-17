@@ -53,7 +53,16 @@
 
 * [x] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/)
 
-* [ ] Advanced tutorial: How to write reusable apps
+* [x] [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/)
+
+    ```sh
+    $ mkdir django-polls
+    $ mv polls django-polls
+    $ cd django-polls
+    $ python setup.py sdist
+    $ pip install dist/django-polls-0.1.tar.gz
+    $ # pip uninstall django-polls
+    ```
 
 * [ ] What to read next
 
