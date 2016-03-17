@@ -38,7 +38,6 @@ local development:
 the tutorial [checklist](#checklist):
 
     ```sh
-    $ cd django-tutorial
     $ git checkout overview
     ```
 
