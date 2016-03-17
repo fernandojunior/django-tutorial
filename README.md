@@ -78,27 +78,27 @@ the branch of the item to GitHub:
 
 ## Checklist
 
-* [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/) [overview]
+* [ ] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/) [overview]
 
 * [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/) [install]
 
     Observation: Django has been installed using `pip install requirements.txt`.
 
-* [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/) [tutorial01]
+* [ ] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/) [tutorial01]
 
-* [x] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/) [tutorial02]
+* [ ] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/) [tutorial02]
 
-* [x] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/) [tutorial03]
+* [ ] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/) [tutorial03]
 
-* [x] [Writing your first Django app, part 4](https://docs.djangoproject.com/en/1.9/intro/tutorial04/) [tutorial04]
+* [ ] [Writing your first Django app, part 4](https://docs.djangoproject.com/en/1.9/intro/tutorial04/) [tutorial04]
 
-* [x] [Writing your first Django app, part 5](https://docs.djangoproject.com/en/1.9/intro/tutorial05/) [tutorial05]
+* [ ] [Writing your first Django app, part 5](https://docs.djangoproject.com/en/1.9/intro/tutorial05/) [tutorial05]
 
-* [x] [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.9/intro/tutorial06/) [tutorial06]
+* [ ] [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.9/intro/tutorial06/) [tutorial06]
 
-* [x] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/) [tutorial07]
+* [ ] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/) [tutorial07]
 
-* [x] [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/) [reusable-apps]
+* [ ] [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/) [reusable-apps]
 
 * [What to read next](https://docs.djangoproject.com/en/1.9/intro/whatsnext/)
 
