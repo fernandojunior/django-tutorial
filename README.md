@@ -1,129 +1,112 @@
 # Django tutorial
 
-* [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/)
+Introductory tutorial to write your first Django app.
 
-* [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/)
+## Get started!
 
-* [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
+1. Fork the `django-tutorial` repository on GitHub.
 
-    ```sh
-    $ django-admin startproject mysite
-    $ mv mysite/* . && rm -r mysite
-    $ python manage.py startapp polls
-    # http://127.0.0.1:8000/polls/
-    ```
-
-* [x] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/)
+2. Copy your fork locally:
 
     ```sh
-    $ sudo apt-get update
-    $ sudo apt-get install sqlite3 libsqlite3-dev
-    $ python manage.py migrate
-    $ python manage.py makemigrations polls
-    $ python manage.py showmigrations
-    $ python manage.py sqlmigrate polls 0001
-    $ python manage.py check
-    $ python manage.py migrate
-    $ python manage.py shell
-    $ python manage.py createsuperuser
-    $ python manage.py runserver
-    # http://127.0.0.1:8000/admin/
+    $ git clone git@github.com:<your_name_here>/django-tutorial.git
     ```
-
-* [x] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/)
-
-* [x] [Writing your first Django app, part 4](https://docs.djangoproject.com/en/1.9/intro/tutorial04/)
-
-* [x] [Writing your first Django app, part 5](https://docs.djangoproject.com/en/1.9/intro/tutorial05/)
-
-    ```sh
-    $ python manage.py shell
-    >>> from django.test.utils import setup_test_environment
-    >>> from django.core.urlresolvers import reverse
-    >>> setup_test_environment()
-    >>> client = Client()
-    >>> response = client.get(reverse('polls:index'))
-    >>> response.status_code
-    >>> response.content
-    >>> response.context['latest_question_list']
-    $ python manage.py test polls
-    ```
-
-* [x] [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.9/intro/tutorial06/)
-
-* [x] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/)
-
-* [x] [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/)
-
-    ```sh
-    $ mkdir django-polls
-    $ mv polls django-polls
-    $ cd django-polls
-    $ python setup.py sdist
-    $ pip install dist/django-polls-0.1.tar.gz
-    $ # pip uninstall django-polls
-    ```
-
-* [ ] What to read next
-
-* [ ] Writing your first patch for Django
-
-## Get Started!
-
-Here's how to set up `django-tutorial` for local development.
-
-1. Fork the `django-tutorial` repo on GitHub.
-2. Clone your fork locally:
-
-  ```sh
-  $ git clone git@github.com:your_name_here/django-tutorial.git
-  ```
 
 3. Make sure your system is up to date:
 
-  ```sh
-  $ apt-get update
-  $ apt-get upgrade
-  $ apt-get install -y build-essential
-  $ apt-get install -y python2-dev python2-software-properties
-  $ apt-get install -y python3-dev python3-software-properties
-  ```
+    ```sh
+    $ apt-get update
+    $ apt-get upgrade
+    $ apt-get install -y build-essential
+    $ apt-get install -y python3-dev python3-software-properties  # or
+    $ apt-get install -y python2-dev python2-software-properties
+    ```
 
-4. Install your local copy into a virtualenv. Assuming you have virtualenv installed, this is how you set up your fork for local development:
+4. Configure your local copy to work with
+[virtualenv](https://virtualenv.pypa.io/) and [pip](https://pip.pypa.io).
+Assuming you have virtualenv installed, this is how you set up your copy for
+local development:
 
-  ```sh
-  $ cd django-tutorial/
-  $ virtualenv env
-  $ source env/bin/activate
-  $ pip install -r requirements/dev.txt
-  ```
+    ```sh
+    $ cd django-tutorial/
+    $ virtualenv env
+    $ source env/bin/activate
+    $ pip install -r requirements.txt
+    ```
 
-5. Create a branch for local development:
+5. Switch to `overview` branch to start the tutorial from the first item of
+the tutorial [checklist](#checklist):
 
-  ```sh
-  $ git checkout -b name-of-your-bugfix-or-feature
-  ```
+    ```sh
+    $ cd django-tutorial
+    $ git checkout overview
+    ```
 
-   Now you can make your changes locally.
+   Now you can make your changes locally to develop the overview item of
+   checklist.
 
-6. When you're done making changes, check that your changes pass flake8 and tests, including testing other Python versions with tox:
+6. When you're done making changes for the item, commit your changes and push
+the branch of the item to GitHub:
 
-  ```sh
-  $ flake8
-  $ py.test
-  $ tox
-  ```
+ ```sh
+ $ git add .
+ $ git commit -m "Your detailed description of your changes."
+ $ git push origin <branch-name>
+ ```
 
-7. Commit your changes and push your branch to GitHub:
+7. Now, create a new branch to develop the next item checklist of the tutorial:
 
-  ```sh
-  $ git add .
-  $ git commit -m "Your detailed description of your changes."
-  $ git push origin name-of-your-bugfix-or-feature
-  ```
+    ```sh
+    $ git checkout -b <branch-name>
+    ```
 
-8. Submit a pull request through the GitHub website.
+8. Back to step 6 until the tutorial checklist is fully completed.
+
+9. Switch to master branch and merge it with the last created branch:
+
+    ```sh
+    $ git checkout master
+    $ git merge reusable-apps
+    $ git push origin master
+    ```
+
+10. Run the development server:
+
+    ```sh
+    $ python manage.py runserver
+    ```
+
+## Checklist
+
+* [x] [Django at a glance](https://docs.djangoproject.com/en/1.9/intro/overview/) [overview]
+
+* [x] [Quick install guide](https://docs.djangoproject.com/en/1.9/intro/install/) [install]
+
+    Observation: Django has been installed using `pip install requirements.txt`.
+
+* [x] [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.9/intro/tutorial01/) [tutorial01]
+
+* [x] [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/) [tutorial02]
+
+* [x] [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.9/intro/tutorial03/) [tutorial03]
+
+* [x] [Writing your first Django app, part 4](https://docs.djangoproject.com/en/1.9/intro/tutorial04/) [tutorial04]
+
+* [x] [Writing your first Django app, part 5](https://docs.djangoproject.com/en/1.9/intro/tutorial05/) [tutorial05]
+
+* [x] [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.9/intro/tutorial06/) [tutorial06]
+
+* [x] [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.9/intro/tutorial07/) [tutorial07]
+
+* [x] [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/) [reusable-apps]
+
+* [What to read next](https://docs.djangoproject.com/en/1.9/intro/whatsnext/)
+
+* [Writing your first patch for Django](https://docs.djangoproject.com/en/1.9/intro/contributing/)
 
 ## Credits
 
-This project was created based on [fernandojunior/python-template-simple](https://github.com/fernandojunior/python-template-simple) project template.
+* Author: Fernando Felix do Nascimento Junior
+* GitHub repository: https://github.com/fernandojunior/django-tutorial
+* Reference: https://docs.djangoproject.com/en/1.9/intro/
+* Free software: The MIT License

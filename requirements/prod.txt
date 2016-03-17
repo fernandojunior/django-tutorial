@@ -1,4 +1,0 @@
-# Everything needed in production
-
-# Django with Python 3 support
-Django==1.9
